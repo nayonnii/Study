@@ -1,4 +1,4 @@
-package test;
+package com.example.study.standard.ch6.test;
 
 class SutdaCard2{
 	int num;
@@ -6,7 +6,7 @@ class SutdaCard2{
 
 	SutdaCard2(){
 		this(1,true);
-	};	//±âº»»ý¼ºÀÚ
+	};	//ï¿½âº»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	
 	SutdaCard2(int num, boolean isKwang){
 		this.num = num;

@@ -1,4 +1,4 @@
-package test;
+package com.example.study.standard.ch4.test;
 
 //다음의 for문을 while문으로 변경하시오.
 public class ts_4_5 {

@@ -1,4 +1,4 @@
-package Exercise;
+package com.example.study.standard.ch2;
 
 public class VarEx1 {
 

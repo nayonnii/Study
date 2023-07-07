@@ -1,4 +1,4 @@
-package Exercise;
+package com.example.study.standard.ch3;
 import java.util.*;
 
 public class OperatorEx25 {
@@ -8,16 +8,16 @@ public class OperatorEx25 {
 		Scanner scanner = new Scanner(System.in);
 		char ch = ' ';
 		
-		System.out.print("¹®ÀÚ¸¦ ÇÏ³ª ÀÔ·ÂÇÏ¼¼¿ä. >");
+		System.out.print("ï¿½ï¿½ï¿½Ú¸ï¿½ ï¿½Ï³ï¿½ ï¿½Ô·ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½. >");
 		
 		String input = scanner.nextLine();
-		ch = input.charAt(0);				//charAt(index) : scanner·Î ÀÔ·Â¹ÞÀº ¹®ÀÚ¿­ Áß index¹øÂ°ÀÇ ±ÛÀÚ¸¦ ÀÐÀ½
+		ch = input.charAt(0);				//charAt(index) : scannerï¿½ï¿½ ï¿½Ô·Â¹ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¿ï¿½ ï¿½ï¿½ indexï¿½ï¿½Â°ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¸ï¿½ ï¿½ï¿½ï¿½ï¿½
 		
 		if('0' <= ch && ch <= '9') {
-			System.out.println("ÀÔ·ÂÇÏ½Å ¹®ÀÚ´Â ¼ýÀÚÀÔ´Ï´Ù.");
+			System.out.println("ï¿½Ô·ï¿½ï¿½Ï½ï¿½ ï¿½ï¿½ï¿½Ú´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ô´Ï´ï¿½.");
 
 			if(('a' <= ch && ch <= 'z') || ('A' < ch && ch <= 'Z')) {
-				System.out.println("ÀÔ·ÂÇÏ½Å ¹®ÀÚ´Â ¿µ¹®ÀÚÀÔ´Ï´Ù.");
+				System.out.println("ï¿½Ô·ï¿½ï¿½Ï½ï¿½ ï¿½ï¿½ï¿½Ú´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô´Ï´ï¿½.");
 			}
 		}
 	}

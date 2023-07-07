@@ -1,4 +1,4 @@
-package Exercise;
+package com.example.study.standard.ch3;
 
 public class OperatorEx23 {
 
@@ -9,11 +9,11 @@ public class OperatorEx23 {
 		
 		System.out.printf("\" abc \" == \" abc \" ? %b%n", "abc"=="abc");
 		System.out.printf("str1 == \" abc \" ? %b%n", str1=="abc");
-		System.out.printf("str2 == \" abc \" ? %b%n", str2=="abc"); // false, ³»¿ëÀº °°Áö¸¸ ¼­·Î ´Ù¸¥ °´Ã¼ÀÌ±â ¶§¹®
+		System.out.printf("str2 == \" abc \" ? %b%n", str2=="abc"); // false, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ù¸ï¿½ ï¿½ï¿½Ã¼ï¿½Ì±ï¿½ ï¿½ï¿½ï¿½ï¿½
 		System.out.printf("str1.equals(\"abc\") ? %b%n", str1.equals("abc"));
-		System.out.printf("str2.equals(\"abc\") ? %b%n", str2.equals("abc")); //true, equals()´Â °´Ã¼°¡ ´Þ¶óµµ ³»¿ëÀÌ °°À¸¸é °°´Ù°í º½
+		System.out.printf("str2.equals(\"abc\") ? %b%n", str2.equals("abc")); //true, equals()ï¿½ï¿½ ï¿½ï¿½Ã¼ï¿½ï¿½ ï¿½Þ¶ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ù°ï¿½ ï¿½ï¿½
 		System.out.printf("str2.equals(\"ABC\") ? %b%n", str2.equals("ABC"));
-		System.out.printf("str2.equalsIgnoreCase(\"ABC\") ? %b%n", str2.equalsIgnoreCase("ABC")); // equalsIgnoreCase(): ´ë¼Ò¹®ÀÚ ±¸º°x
+		System.out.printf("str2.equalsIgnoreCase(\"ABC\") ? %b%n", str2.equalsIgnoreCase("ABC")); // equalsIgnoreCase(): ï¿½ï¿½Ò¹ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½x
 	}
 
 }

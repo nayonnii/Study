@@ -1,4 +1,4 @@
-package Exercise;
+package com.example.study.standard.ch4;
 
 import java.util.*;
 
@@ -7,7 +7,7 @@ public class Ex4_25_FlowEx25 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int num = 0, sum = 0;
-		System.out.print("¼ýÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä. (¿¹:12345)>");
+		System.out.print("ï¿½ï¿½ï¿½Ú¸ï¿½ ï¿½Ô·ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½. (ï¿½ï¿½:12345)>");
 		
 		Scanner scanner = new Scanner(System.in);
 		String tmp = scanner.nextLine();
@@ -17,7 +17,7 @@ public class Ex4_25_FlowEx25 {
 			sum += num % 10;
 			num/=10;
 		}
-		System.out.println("°¢ ÀÚ¸®¼öÀÇ ÇÕ: " + sum);
+		System.out.println("ï¿½ï¿½ ï¿½Ú¸ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½: " + sum);
 
 	}
 

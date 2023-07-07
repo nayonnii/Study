@@ -1,10 +1,10 @@
-package test;
+package com.example.study.standard.ch6.test;
 
 public class ts_6_20 {
 	static int[] shuffle(int[] arr){
-		//¸Å°³º¯¼ö À¯È¿¼ºÃ¼Å© ÇÊ¼ö
+		//ï¿½Å°ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¿ï¿½ï¿½Ã¼Å© ï¿½Ê¼ï¿½
 		if(arr == null || arr.length == 0) {
-			return arr;	// ¹è¿­ÀÇ °ªÀÌ nullÀÌ°Å³ª Å©±â°¡ 0ÀÌ¸é ¹è¿­ ±×´ë·Î ¹ÝÈ¯
+			return arr;	// ï¿½è¿­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ nullï¿½Ì°Å³ï¿½ Å©ï¿½â°¡ 0ï¿½Ì¸ï¿½ ï¿½è¿­ ï¿½×´ï¿½ï¿½ ï¿½ï¿½È¯
 		}
 		
 		for(int i = 0; i<arr.length; i++) {

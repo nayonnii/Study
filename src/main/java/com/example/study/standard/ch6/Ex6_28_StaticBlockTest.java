@@ -1,4 +1,4 @@
-package Exercise;
+package com.example.study.standard.ch6;
 
 public class Ex6_28_StaticBlockTest {
 	static int[] arr = new int[10];

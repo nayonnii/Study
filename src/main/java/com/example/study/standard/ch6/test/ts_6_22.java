@@ -1,4 +1,4 @@
-package test;
+package com.example.study.standard.ch6.test;
 
 public class ts_6_22 {
 	static boolean isNumber(String str) {

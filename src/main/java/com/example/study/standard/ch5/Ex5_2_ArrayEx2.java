@@ -1,4 +1,4 @@
-package Exercise;
+package com.example.study.standard.ch5;
 import java.util.*;	//Arrays.toString() 사용을 위해 추가
 public class Ex5_2_ArrayEx2 {
 

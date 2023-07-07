@@ -1,4 +1,4 @@
-package Exercise;
+package com.example.study.standard.ch3;
 //import java.util.*;
 
 public class OperatorEx28 {
@@ -18,6 +18,6 @@ public class OperatorEx28 {
 	static String toBinaryString(int x) {
 		String zero = "00000000000000000000000000000000";
 		String tmp = zero + Integer.toBinaryString(x);
-		return tmp.substring(tmp.length() - 32);		//substring(i) : i¹øÂ° ¹®ÀÚºÎÅÍ ³¡±îÁö Ãâ·Â
+		return tmp.substring(tmp.length() - 32);		//substring(i) : iï¿½ï¿½Â° ï¿½ï¿½ï¿½Úºï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
 	}
 }

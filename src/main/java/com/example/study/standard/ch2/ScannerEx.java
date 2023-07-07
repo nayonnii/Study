@@ -1,4 +1,4 @@
-package Exercise;
+package com.example.study.standard.ch2;
 import java.util.Scanner;
 
 public class ScannerEx {
@@ -8,10 +8,10 @@ public class ScannerEx {
 		
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.print("µÎ ÀÚ¸® Á¤¼ö¸¦ ÇÏ³ª ÀÔ·ÂÇØÁÖ¼¼¿ä > ");
+		System.out.print("ï¿½ï¿½ ï¿½Ú¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ï³ï¿½ ï¿½Ô·ï¿½ï¿½ï¿½ï¿½Ö¼ï¿½ï¿½ï¿½ > ");
 		String input = scanner.nextLine();
 		int num = Integer.parseInt(input);
-		System.out.println("ÀÔ·Â³»¿ë: " + input);
+		System.out.println("ï¿½Ô·Â³ï¿½ï¿½ï¿½: " + input);
 		System.out.printf("num=%d%n", num);
 		
 	}

@@ -1,4 +1,4 @@
-package Exercise;
+package com.example.study.standard.ch2;
 
 public class OverFlowEx {
 
@@ -14,11 +14,11 @@ public class OverFlowEx {
 		System.out.println("sMax = " + sMax);
 		System.out.println("sMax + 1 = " + (short)(sMax + 1));
 		System.out.println("cMin = " + (int)cMin);
-//		System.out.println("cMin - 1 = " + (int)(cMin-1));	// ¿Ö --cMinÀÌ¶û °á°ú°ªÀÌ ´Ù¸£Áö..
+//		System.out.println("cMin - 1 = " + (int)(cMin-1));	// ï¿½ï¿½ --cMinï¿½Ì¶ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ù¸ï¿½ï¿½ï¿½..
 		System.out.println("cMin - 1 = " + (int)--cMin);
 		System.out.println("cMax = " + (int) cMax);
 		System.out.println("cMax + 1 = " + (int)++cMax);	
-//		System.out.println("cMax + 1 = " + (int)(cMax + 1));	// ¿Ö ++cMaxÀÌ¶û °á°ú°ªÀÌ ´Ù¸£Áö..
+//		System.out.println("cMax + 1 = " + (int)(cMax + 1));	// ï¿½ï¿½ ++cMaxï¿½Ì¶ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ù¸ï¿½ï¿½ï¿½..
 	}
 
 }

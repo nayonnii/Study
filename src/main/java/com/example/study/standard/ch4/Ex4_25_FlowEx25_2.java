@@ -1,4 +1,4 @@
-package Exercise;
+package com.example.study.standard.ch4;
 
 import java.util.*;
 

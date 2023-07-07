@@ -1,4 +1,4 @@
-package test;
+package com.example.study.standard.ch4.test;
 
 //1+(1+2)+(1+2+3)+...+(1+2+3+...+10)의 결과를 계산하시오
 public class ts_4_3 {

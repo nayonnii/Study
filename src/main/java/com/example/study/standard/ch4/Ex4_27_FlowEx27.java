@@ -1,4 +1,4 @@
-package Exercise;
+package com.example.study.standard.ch4;
 import java.util.*;
 public class Ex4_27_FlowEx27 {
 

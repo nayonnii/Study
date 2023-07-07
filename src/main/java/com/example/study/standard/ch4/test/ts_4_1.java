@@ -1,6 +1,6 @@
-package test;
+package com.example.study.standard.ch4.test;
 
-//Á¶°Ç½Ä ¾²±â
+//ï¿½ï¿½ï¿½Ç½ï¿½ ï¿½ï¿½ï¿½ï¿½
 public class ts_4_1 {
 
 	public static void main(String[] args) {
@@ -10,7 +10,7 @@ public class ts_4_1 {
 //		3. ch=='x' || ch == 'X'
 //		4. '0' <= ch && ch <= '9'
 //		5. ('a' <= ch && ch <= 'z') || ('A' <= ch && ch <= 'Z') 
-//		 * ´ë¼Ò¹®ÀÚ ±¸º° ¾øÀ½ ¸Þ¼­µå?(..Binary...?)
+//		 * ï¿½ï¿½Ò¹ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Þ¼ï¿½ï¿½ï¿½?(..Binary...?)
 //		6. year%400==0 || (year%4==0 && year%100 !=0)
 //		7. powerOn == false
 //		8. str.equals("yes")	//"yes".equals(str)

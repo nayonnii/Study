@@ -1,4 +1,4 @@
-package Exercise;
+package com.example.study.standard.ch6;
 
 class MyMath3 {
 	int add(int a, int b) {

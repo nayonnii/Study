@@ -1,4 +1,4 @@
-package Exercise;
+package com.example.study.standard.ch3;
 
 public class OperatorEx6 {
 
@@ -6,7 +6,7 @@ public class OperatorEx6 {
 		// TODO Auto-generated method stub
 		byte a = 10;
 		byte b = 20;
-		byte c = (byte)(a + b); // intº¸´Ù ÀÛÀº °ªÀÇ ¿¬»êÀÌ¹Ç·Î byte -> int·Î Çüº¯È¯µÇ¾î ¿¬»êµÊ, µû¶ó¼­ °á°ú°ªÀÌ intÀÓ
+		byte c = (byte)(a + b); // intï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ì¹Ç·ï¿½ byte -> intï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½È¯ï¿½Ç¾ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ intï¿½ï¿½
 		System.out.println(c);
 	}
 

@@ -1,4 +1,4 @@
-package test;
+package com.example.study.standard.ch4.test;
 
 //구구단의 일부분을 다음과 같이 출력하시오.
 public class ts_4_12_2 {

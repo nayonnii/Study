@@ -1,11 +1,11 @@
-package Exercise;
+package com.example.study.standard.ch3;
 
 public class OperatorEx18 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		double pi = 3.141592;
-		double shortPi = Math.round(pi * 1000) / 1000.0; // Math.round(): ¸Å°³º¯¼ö·Î ¹ÞÀº °ªÀ» ¼Ò¼öÁ¡ Ã¹Â°ÀÚ¸®¿¡¼­ ¹Ý¿Ã¸²À» ÇÏ°í ±× °á°ú¸¦ Á¤¼ö·Î µ¹·ÁÁÖ´Â ¸Þ¼­µå
+		double shortPi = Math.round(pi * 1000) / 1000.0; // Math.round(): ï¿½Å°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ò¼ï¿½ï¿½ï¿½ Ã¹Â°ï¿½Ú¸ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ý¿Ã¸ï¿½ï¿½ï¿½ ï¿½Ï°ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ö´ï¿½ ï¿½Þ¼ï¿½ï¿½ï¿½
 		
 		System.out.println(shortPi);
 	}

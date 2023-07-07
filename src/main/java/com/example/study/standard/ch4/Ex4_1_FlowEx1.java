@@ -1,4 +1,4 @@
-package Exercise;
+package com.example.study.standard.ch4;
 
 public class Ex4_1_FlowEx1 {
 

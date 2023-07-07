@@ -1,4 +1,4 @@
-package Exercise;
+package com.example.study.standard.ch2;
 
 public class PrintfEx1 {
 
@@ -12,9 +12,9 @@ public class PrintfEx1 {
 		long big = 100_000_000_000L; //long big = 1000000000000L;
 		long hex = 0xFFFF_FFFF_FFFF_FFFFL;
 		
-		int octNum = 010;		// 8Áø¼ö·Î 10, 10Áø¼ö·Î 8
-		int hexNum = 0x10;		// 16Áø¼ö·Î 10, 16Áø¼ö·Î 16
-		int binNum = 0b10;		// 2Áø¼ö·Î 10, 10Áø¼ö·Î 2
+		int octNum = 010;		// 8ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 10, 10ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 8
+		int hexNum = 0x10;		// 16ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 10, 16ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 16
+		int binNum = 0b10;		// 2ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 10, 10ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 2
 		
 		System.out.printf("b=%d%n", b);
 		System.out.printf("s=%d%n", s);
@@ -23,10 +23,10 @@ public class PrintfEx1 {
 		System.out.printf("finger=[-5%d]%n", finger);
 		System.out.printf("finger=[%05d]%n", finger);
 		System.out.printf("big=%d%n", big);
-		System.out.printf("hex=%#x%n", hex);		//#Àº Á¢µÎ»ç(16Áø¼ö 0x, 8Áø¼ö 0)
+		System.out.printf("hex=%#x%n", hex);		//#ï¿½ï¿½ ï¿½ï¿½ï¿½Î»ï¿½(16ï¿½ï¿½ï¿½ï¿½ 0x, 8ï¿½ï¿½ï¿½ï¿½ 0)
 		System.out.printf("octNum=%o, %d%n", octNum, octNum);
 		System.out.printf("hexNum=%x, %d%n", hexNum, hexNum);
-		System.out.printf("binNum=%s, %d%n", Integer.toBinaryString(binNum), binNum, binNum); // Integer.toBinaryString()Àº Á¤¼ö¸¦ 2Áø¼ö·Î º¯È¯ÇÏ¿© ¹®ÀÚ¿­·Î ¹ÝÈ¯
+		System.out.printf("binNum=%s, %d%n", Integer.toBinaryString(binNum), binNum, binNum); // Integer.toBinaryString()ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 2ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¯ï¿½Ï¿ï¿½ ï¿½ï¿½ï¿½Ú¿ï¿½ï¿½ï¿½ ï¿½ï¿½È¯
 	}
 
 }

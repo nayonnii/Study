@@ -1,4 +1,4 @@
-package Exercise;
+package com.example.study.standard.ch3;
 
 public class OperatorEx22 {
 
@@ -9,7 +9,7 @@ public class OperatorEx22 {
 		double d2 = (double)f;
 		
 		System.out.printf("10.0==10.0f		%b%n", 10.0==10.0f);
-		System.out.printf("0.1=0.1f			%b%n", 0.1==0.1f); //false. ½Ç¼ö´Â Çüº¯È¯ ½Ã Á¤¹Ðµµ ¶§¹®¿¡ ¿ÀÂ÷°¡ ¹ß»ýÇÒ ¼ö ÀÖÀ½
+		System.out.printf("0.1=0.1f			%b%n", 0.1==0.1f); //false. ï¿½Ç¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½È¯ ï¿½ï¿½ ï¿½ï¿½ï¿½Ðµï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ß»ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		System.out.printf("f= %19.17f%n", f);
 		System.out.printf("d= %19.17f%n", d);
 		System.out.printf("d2= %19.17f%n", d2);

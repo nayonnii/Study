@@ -1,4 +1,4 @@
-package Exercise;
+package com.example.study.standard.ch3;
 
 public class OperatorEx10 {
 
@@ -6,7 +6,7 @@ public class OperatorEx10 {
 		// TODO Auto-generated method stub
 		int a = 1000000;
 		
-		int result1 = a * a / a;	// a * a¿¡¼­ ¿À¹öÇÃ·Î¿ì ¹ß»ý
+		int result1 = a * a / a;	// a * aï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ã·Î¿ï¿½ ï¿½ß»ï¿½
 		int result2 = a / a * a;
 		
 		System.out.printf("%d * %d / %d = %d%n", a, a, a, result1);

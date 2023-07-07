@@ -1,4 +1,4 @@
-package Exercise;
+package com.example.study.standard.ch5;
 public class Ex5_6_ArrayEx6 {
 //최대값과 최소값
 	public static void main(String[] args) {

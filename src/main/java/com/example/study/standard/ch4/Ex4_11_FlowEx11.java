@@ -1,5 +1,4 @@
-package Exercise;
-
+package com.example.study.standard.ch4;
 import java.util.Scanner;
 
 public class Ex4_11_FlowEx11 {

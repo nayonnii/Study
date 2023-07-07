@@ -1,4 +1,4 @@
-package Exercise;
+package com.example.study.standard.ch3;
 
 public class OperatorEx14 {
 

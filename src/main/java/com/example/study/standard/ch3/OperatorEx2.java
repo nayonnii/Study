@@ -1,4 +1,4 @@
-package Exercise;
+package com.example.study.standard.ch3;
 
 public class OperatorEx2 {
 
@@ -7,13 +7,13 @@ public class OperatorEx2 {
 		int i=5, j=0;
 		
 		j = i++;
-		System.out.println("j=i++; ½ÇÇà ÈÄ, i=" + i + ", j=" + j);
+		System.out.println("j=i++; ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½, i=" + i + ", j=" + j);
 		
 		i=5;
 		j=0;
 		
 		j=++i;
-		System.out.println("j=++i; ½ÇÇà ÈÄ, i=" + i + ", j=" + j);
+		System.out.println("j=++i; ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½, i=" + i + ", j=" + j);
 		
 	}
 

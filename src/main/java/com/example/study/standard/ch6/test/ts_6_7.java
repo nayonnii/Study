@@ -1,4 +1,4 @@
-package test;
+package com.example.study.standard.ch6.test;
 
 class MyPoint{
 	int x;

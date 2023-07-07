@@ -1,10 +1,10 @@
-package Exercise;
+package com.example.study.standard.ch3;
 
 public class OperatorEx9 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		long a = 1_000_000 * 1_000_000;		//ÇÇ¿¬»êÀÚ°¡ ¸ðµÎ intÅ¸ÀÔÀÌ¶ó¼­ °á°ú°ªÀÌ ÃÊ°úµÊ
+		long a = 1_000_000 * 1_000_000;		//ï¿½Ç¿ï¿½ï¿½ï¿½ï¿½Ú°ï¿½ ï¿½ï¿½ï¿½ intÅ¸ï¿½ï¿½ï¿½Ì¶ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê°ï¿½ï¿½ï¿½
 		long b = 1_000_000 * 1_000_000L;
 		
 		System.out.println("a=" + a);

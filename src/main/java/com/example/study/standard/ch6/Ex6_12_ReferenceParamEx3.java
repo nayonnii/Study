@@ -1,4 +1,4 @@
-package Exercise;
+package com.example.study.standard.ch6;
 
 public class Ex6_12_ReferenceParamEx3 {
 

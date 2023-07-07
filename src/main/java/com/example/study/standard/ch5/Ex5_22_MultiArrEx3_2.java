@@ -1,4 +1,4 @@
-package Exercise;
+package com.example.study.standard.ch5;
 
 import java.util.Scanner;
 

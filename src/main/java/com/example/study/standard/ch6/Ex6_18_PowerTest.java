@@ -1,5 +1,5 @@
 
-package Exercise;
+package com.example.study.standard.ch6;
 
 public class Ex6_18_PowerTest {
 	public static void main(String[] args) {

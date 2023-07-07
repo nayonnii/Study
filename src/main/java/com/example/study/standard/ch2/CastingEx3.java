@@ -1,4 +1,4 @@
-package Exercise;
+package com.example.study.standard.ch2;
 
 public class CastingEx3 {
 
@@ -8,7 +8,7 @@ public class CastingEx3 {
 		double d = 9.1234567;
 		double d2 = (double)f;
 		
-		System.out.printf("f = %20.18f\n", f);	//f¿Í d¿¡ °°Àº °ªÀ» ÀúÀåÇßÁö¸¸ Á¤¹Ðµµ°¡ ´Þ¶ó Ãâ·Â°ª »óÀÌ
+		System.out.printf("f = %20.18f\n", f);	//fï¿½ï¿½ dï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ðµï¿½ï¿½ï¿½ ï¿½Þ¶ï¿½ ï¿½ï¿½Â°ï¿½ ï¿½ï¿½ï¿½ï¿½
 		System.out.printf("d = %20.18f\n", d);
 		System.out.printf("d2 = %20.18f\n", d2);
 	}

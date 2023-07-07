@@ -1,4 +1,4 @@
-package Exercise;
+package com.example.study.standard.ch4;
 
 public class Ex4_29_FlowEx29_2 {
 
@@ -11,7 +11,7 @@ public class Ex4_29_FlowEx29_2 {
 			int tmp = i;
 			
 			do {
-				//tmp%10ÀÌ 3ÀÇ ¹è¼öÀÎÁö È®ÀÎ(0 Á¦¿Ü)
+				//tmp%10ï¿½ï¿½ 3ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È®ï¿½ï¿½(0 ï¿½ï¿½ï¿½ï¿½)
 				if((tmp%10)%3 == 0 && (tmp%10) != 0) {
 					System.out.println("Â¦");
 				} 

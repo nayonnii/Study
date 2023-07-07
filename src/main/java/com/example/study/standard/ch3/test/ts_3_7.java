@@ -1,10 +1,10 @@
-package test;
+package com.example.study.standard.ch3.test;
 
 public class ts_3_7 {
 	public static void main(String[] args) {
 		int fahrenheit = 100;
 		float celcius = (int)(((5/9f * (fahrenheit - 32)) * 100) + 0.5) / 100.0f;
-		//5/9ÀÇ ¸òÀº 0ÀÌ±â ¶§¹®¿¡ ¹Ýµå½Ã ½Ç¼öÇüÀ¸·Î °á°ú°ªÀ» ¹Þ¾Æ¾ß ÇÔ
+		//5/9ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ 0ï¿½Ì±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ýµï¿½ï¿½ ï¿½Ç¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Þ¾Æ¾ï¿½ ï¿½ï¿½
 		System.out.println("Fahrenheit:" + fahrenheit);
 		System.out.println("Celcius:" + celcius);
 

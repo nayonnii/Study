@@ -1,11 +1,11 @@
-package Exercise;
+package com.example.study.standard.ch2;
 
 public class CastingEx4 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int i = 91234567;
-		float f = (float)i;	//floatÇüÀÇ Á¤¹Ðµµ´Â ¾à 7ÀÚ¸®
+		float f = (float)i;	//floatï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ðµï¿½ï¿½ï¿½ ï¿½ï¿½ 7ï¿½Ú¸ï¿½
 		int i2 = (int)f;
 		
 		double d = (double)i;

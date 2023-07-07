@@ -1,9 +1,9 @@
-package Exercise;
+package com.example.study.standard.ch3;
 
 public class OperatorEx29 {
 	public static void main(String[] args) {
-		byte p = 10; 	//2Áø¼ö·Î -> 1010
-		byte n = -10;	//2Áø¼ö·Î -> 0101(10ÀÇ 1ÀÇº¸¼ö) + 1 = 0110
+		byte p = 10; 	//2ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ -> 1010
+		byte n = -10;	//2ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ -> 0101(10ï¿½ï¿½ 1ï¿½Çºï¿½ï¿½ï¿½) + 1 = 0110
 		
 		System.out.printf("p = %d \t%s%n", p, toBinaryString(p));		//10, 00000000000000000000000000001010			
 //		System.out.printf("p = %d \t%s%n", p, Integer.toBinaryString(p));		//10, 1010			
@@ -15,7 +15,7 @@ public class OperatorEx29 {
 		System.out.printf("~(n-1) = %d%n", ~(n-1));						//10
 	}
 
-//10Áø Á¤¼ö¸¦ 2Áø¼ö·Î º¯È¯ÇÏ´Â ¸Þ¼­µå
+//10ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 2ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¯ï¿½Ï´ï¿½ ï¿½Þ¼ï¿½ï¿½ï¿½
 static String toBinaryString(int x) {
 	String zero = "00000000000000000000000000000000";
 	String tmp = zero + Integer.toBinaryString(x);

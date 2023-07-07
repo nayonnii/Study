@@ -1,4 +1,4 @@
-package Exercise;
+package com.example.study.standard.ch3;
 
 public class OperatorEx8 {
 
@@ -7,7 +7,7 @@ public class OperatorEx8 {
 		int a = 1_000_000;
 		int b = 2_000_000;
 		
-		long c = a * b;	//a*bÀÇ °á°ú°ªÀº intÇüÀÌ¶ó¼­ ¿À¹öÇÃ·Î¿ì µÈ »óÅÂ·Î Ãâ·ÂµÊ
+		long c = a * b;	//a*bï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ intï¿½ï¿½ï¿½Ì¶ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ã·Î¿ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½Â·ï¿½ ï¿½ï¿½Âµï¿½
 		
 		System.out.println(c);
 	}

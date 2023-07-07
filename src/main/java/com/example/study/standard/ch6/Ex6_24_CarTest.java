@@ -1,4 +1,4 @@
-package Exercise;
+package com.example.study.standard.ch6;
 
 class Car{
 	String color;		//»ö»ó	

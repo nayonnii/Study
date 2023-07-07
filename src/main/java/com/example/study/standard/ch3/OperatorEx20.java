@@ -1,10 +1,10 @@
-package Exercise;
+package com.example.study.standard.ch3;
 
 public class OperatorEx20 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//µÎ¹øÂ° ÇÇ¿¬»êÀÚÀÇ ºÎÈ£´Â ¹«½ÃÇÏ°í, ³ª¸ÓÁö °ª¿¡ Ã¹¹øÂ° ÇÇ¿¬»êÀÚÀÇ ºÎÈ£¸¸ ºÙ¿©ÁÖ±â
+		//ï¿½Î¹ï¿½Â° ï¿½Ç¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È£ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï°ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Ã¹ï¿½ï¿½Â° ï¿½Ç¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È£ï¿½ï¿½ ï¿½Ù¿ï¿½ï¿½Ö±ï¿½
 		System.out.println(-10%8);
 		System.out.println(10%-8);
 		System.out.println(-10%-8);

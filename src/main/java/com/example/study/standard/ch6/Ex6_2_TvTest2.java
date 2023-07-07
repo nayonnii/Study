@@ -1,4 +1,4 @@
-package Exercise;
+package com.example.study.standard.ch6;
 
 class Tv2{
 	//Tv의 속성(멤버변수)

@@ -1,4 +1,4 @@
-package test;
+package com.example.study.standard.ch3.test;
 
 public class ts_3_8 {
 

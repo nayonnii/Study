@@ -1,4 +1,4 @@
-package test;
+package com.example.study.standard.ch4.test;
 
 //1과 1부터 시작하는 피보나치수열의 10번째 수는 무엇인지 계산하는 프로그램을 완성하시오.
 public class ts_4_11_2 {

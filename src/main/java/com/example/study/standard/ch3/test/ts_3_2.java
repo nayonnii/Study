@@ -1,11 +1,11 @@
-package test;
+package com.example.study.standard.ch3.test;
 
 public class ts_3_2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int numOfApples = 123;	//»ç°úÀÇ °³¼ö
-		int sizeOfBucket = 10;	//¹Ù±¸³ªÀÇ Å©±â(¹Ù±¸´Ï¿¡ ´ãÀ» ¼ö ÀÖ´Â »ç°úÀÇ °³¼ö)
+		int numOfApples = 123;	//ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+		int sizeOfBucket = 10;	//ï¿½Ù±ï¿½ï¿½ï¿½ï¿½ï¿½ Å©ï¿½ï¿½(ï¿½Ù±ï¿½ï¿½Ï¿ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½)
 		//		int numOfBucket = (numOfApples%sizeOfBucket) == 0 ? numOfBucket : numOfBucket + 1;
 		int numOfBucket = (numOfApples / sizeOfBucket) + (numOfApples % sizeOfBucket > 0 ? 1 : 0);
 		System.out.println(numOfBucket);

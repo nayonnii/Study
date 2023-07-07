@@ -1,11 +1,11 @@
-package Exercise;
+package com.example.study.standard.ch3;
 
 public class OperatorEx15 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		char lowerCase = 'a';
-		char UpperCase = (char)(lowerCase - 32);	//´ë¼Ò¹®ÀÚ °£ ÄÚµå°ª Â÷ÀÌ = 32
+		char UpperCase = (char)(lowerCase - 32);	//ï¿½ï¿½Ò¹ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Úµå°ª ï¿½ï¿½ï¿½ï¿½ = 32
 		System.out.println(UpperCase);
 	}
 

@@ -1,5 +1,5 @@
 
-package Exercise;
+package com.example.study.standard.ch6;
 
 class MyMath2{
 	long a, b;

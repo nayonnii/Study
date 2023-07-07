@@ -1,4 +1,4 @@
-package Exercise;
+package com.example.study.standard.ch3;
 
 public class OperatorEx19 {
 
@@ -7,8 +7,8 @@ public class OperatorEx19 {
 		int x = 10;
 		int y = 8;
 		
-		System.out.printf("%d¸¦ %d·Î ³ª´©¸é", x, y);
-		System.out.printf("¸òÀº %d, ³ª¸ÓÁö´Â %d", x/y, x%y);
+		System.out.printf("%dï¿½ï¿½ %dï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½", x, y);
+		System.out.printf("ï¿½ï¿½ï¿½ï¿½ %d, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ %d", x/y, x%y);
 	}
 
 }

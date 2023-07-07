@@ -3,13 +3,13 @@ package com.example.study.standard.ch7;
 public class Ex7_31_InnerEx1 {
     class InstanceInner {
         int iv = 100;
-        static int cv = 100;
+        static int cv = 100;  // java 16부터 내부클래스가 static이 아니여도 static 변수 사용 가능
         final static int CONST = 100;
     }
 
     static class StaticInner {
         int iv = 200;
-        static int cv = 200;    // static 클래스만 static멤버를 정의할 수 있다.
+        static int cv = 200;
     }
 
     void myMethod() {

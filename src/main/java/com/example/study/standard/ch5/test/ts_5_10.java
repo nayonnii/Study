@@ -1,4 +1,4 @@
-package test;
+package com.example.study.standard.ch5.test;
 
 public class ts_5_10 {
 

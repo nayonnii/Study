@@ -1,4 +1,4 @@
-package Exercise;
+package com.example.study.standard.ch3;
 
 public class OperatorEx26 {
 
@@ -8,10 +8,10 @@ public class OperatorEx26 {
 		int b = 0;
 		
 		System.out.printf("a=%d, b=%d%n", a, b);						//a=5, b=0
-		System.out.printf("a!=0 || ++b!=0 = %b%n", a!=0 || ++b!=0);		//true  --> Ã¹¹øÂ° ½ÄºÎÅÍ trueÀÌ¹Ç·Î µÎ¹øÂ° ½ÄÀº °è»ê ¾ÈÇÔ
+		System.out.printf("a!=0 || ++b!=0 = %b%n", a!=0 || ++b!=0);		//true  --> Ã¹ï¿½ï¿½Â° ï¿½Äºï¿½ï¿½ï¿½ trueï¿½Ì¹Ç·ï¿½ ï¿½Î¹ï¿½Â° ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		System.out.printf("a=%d, b=%d%n", a, b);						//a=5, b=0
-		System.out.printf("a==0 && ++b!=0 = %b%n", a==0 && ++b!=0);		//false	--> Ã¹¹øÂ° ½ÄºÎÅÍ falseÀÌ¹Ç·Î µÎ¹øÂ° ½ÄÀº °è»ê ¾ÈÇÔ
-		System.out.printf("a=%d, b=%d%n", a, b);						//a==5, b=0 --> µÎ¹øÂ° ½Ä(b½Ä)Àº ¸ðµÎ °è»êµÇÁö ¾Ê¾ÒÀ¸¹Ç·Î b=0 À¯Áö
+		System.out.printf("a==0 && ++b!=0 = %b%n", a==0 && ++b!=0);		//false	--> Ã¹ï¿½ï¿½Â° ï¿½Äºï¿½ï¿½ï¿½ falseï¿½Ì¹Ç·ï¿½ ï¿½Î¹ï¿½Â° ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+		System.out.printf("a=%d, b=%d%n", a, b);						//a==5, b=0 --> ï¿½Î¹ï¿½Â° ï¿½ï¿½(bï¿½ï¿½)ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½Ç·ï¿½ b=0 ï¿½ï¿½ï¿½ï¿½
 	}
 
 }

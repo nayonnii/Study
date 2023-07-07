@@ -1,4 +1,5 @@
-package test;
+package com.example.study.standard.ch6.test;
+
 public class ts_6_10 {
 
 	public static void main(String[] args) {

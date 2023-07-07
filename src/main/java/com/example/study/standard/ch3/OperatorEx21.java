@@ -1,10 +1,10 @@
-package Exercise;
+package com.example.study.standard.ch3;
 
 public class OperatorEx21 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.printf("10==10.0f	\t %b%n", 10==10.f); // ºñ±³¿¬»êÀÚµµ ÀÌÇ×¿¬»êÀÚÀÌ±â ¶§¹®¿¡ ¿¬»ê ½Ã ÀÚµ¿Çüº¯È¯À» ÅëÇØ ÇÇ¿¬»êÀÚÀÇ Å¸ÀÔÀ» ÀÏÄ¡½ÃÄÑ ³õÀº ÈÄ ºñ±³ÇÔ
+		System.out.printf("10==10.0f	\t %b%n", 10==10.f); // ï¿½ñ±³¿ï¿½ï¿½ï¿½ï¿½Úµï¿½ ï¿½ï¿½ï¿½×¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Úµï¿½ï¿½ï¿½ï¿½ï¿½È¯ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ç¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Å¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		System.out.printf("'0'==0 		\t %b%n", '0'==0);
 		System.out.printf("'A'==65		\t %b%n", 'A'==65);
 		System.out.printf("'A'>'B'		\t %b%n", 'A' > 'B');

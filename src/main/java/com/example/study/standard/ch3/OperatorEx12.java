@@ -1,4 +1,4 @@
-package Exercise;
+package com.example.study.standard.ch3;
 
 public class OperatorEx12 {
 
@@ -15,7 +15,7 @@ public class OperatorEx12 {
 		c2++;
 		
 		System.out.println("i=" + i);
-		System.out.println("c2=" + c2);	//c1ÀÇ °ªÀÎ 97¿¡¼­ +2°¡ µÈ 99ÀÇ °ªÀ» °¡¸®Å°´Â c°¡ Ãâ·ÂµÊ
+		System.out.println("c2=" + c2);	//c1ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ 97ï¿½ï¿½ï¿½ï¿½ +2ï¿½ï¿½ ï¿½ï¿½ 99ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Å°ï¿½ï¿½ cï¿½ï¿½ ï¿½ï¿½Âµï¿½
 		System.out.println("c3=" + c3);
 	}
 

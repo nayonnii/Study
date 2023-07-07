@@ -1,4 +1,4 @@
-package Exercise;
+package com.example.study.standard.ch6;
 
 class Car11 {
 	String color;

@@ -1,4 +1,4 @@
-package Exercise;
+package com.example.study.standard.ch5;
 
 public class Ex5_1_ArrayEx1 {
 

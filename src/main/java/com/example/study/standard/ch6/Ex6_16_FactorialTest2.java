@@ -1,5 +1,5 @@
 
-package Exercise;
+package com.example.study.standard.ch6;
 
 public class Ex6_16_FactorialTest2 {
 	static long power(int x, int n) {

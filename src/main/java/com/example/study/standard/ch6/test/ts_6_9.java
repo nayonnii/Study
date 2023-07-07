@@ -1,4 +1,4 @@
-package test;
+package com.example.study.standard.ch6.test;
 
 class Marine{
 	int x = 0, y = 0;	//MarineÀÇ À§Ä¡ÁÂÇ¥(x,y)
